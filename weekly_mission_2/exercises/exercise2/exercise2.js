@@ -1,3 +1,6 @@
+/*
+Ejercicio 2, utilizamos un array de objetos explorer para reafirmar el uso se funciones como foreach, map, filter, reduce, some, every, etc.
+*/
 const explorers = [
  {
    name: "Explorer 1",
