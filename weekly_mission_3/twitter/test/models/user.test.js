@@ -6,7 +6,7 @@ describe('Unit Tests for User class', () => {
 
         //Codigo a probar
 
-        const user = new User(1, "hpoggi", "Hector", "Bio", "dateCreated", "lastUpdated")
+        const user = new User(1, "hpoggi", "Hector", "Bio")
 
 
         //Validacion del codigo anterior
@@ -15,10 +15,8 @@ describe('Unit Tests for User class', () => {
         expect(user.usename).toBe("hpoggi")
         expect(user.name).toBe("Hector")
         expect(user.bio).toBe("Bio")
-        expect(user.dateCreated).toBe("dateCreated")
-        expect(user.lastUpdated).toBe("lastUpdated")
-
+        expect(user.dateCreated).not.toBeUndefined()
+        expect(user.lastUpdated).not.toBeUndefined()
 
     });
 })
-
