@@ -13,6 +13,9 @@ class UserService {
         user.setUsername(username)
     }
 
+    static getAllUsernames(users){
+        return users.map(user=>user.getUsername)
+    }
 
 }
 
