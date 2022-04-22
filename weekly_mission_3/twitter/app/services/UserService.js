@@ -10,11 +10,11 @@ class UserService {
     }
 
     static updateUserUsername(user, username){
-        user.setUsername(username)
+        user.setUsername = username
     }
 
     static getAllUsernames(users){
-        return users.map(user=>user.getUsername())
+        return users.map(user=>user.getUsername)
     }
 
 }

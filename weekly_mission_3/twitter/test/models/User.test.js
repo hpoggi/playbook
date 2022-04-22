@@ -8,11 +8,12 @@ describe('Unit Tests for User class', () => {
 
         const user = new User(1, "hpoggi", "Hector", "Bio")
 
+		console.log(user.username);
 
         //Validacion del codigo anterior
 
         expect(user.id).toBe(1)
-        expect(user.usename).toBe("hpoggi")
+        expect(user.username).toBe("hpoggi")
         expect(user.name).toBe("Hector")
         expect(user.bio).toBe("Bio")
         expect(user.dateCreated).not.toBeUndefined()
