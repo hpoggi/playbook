@@ -15,3 +15,4 @@ class UserView {
 }
 
 module.exports = UserView
+//funciona
