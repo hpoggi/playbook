@@ -31,7 +31,7 @@ class User{
     set setBio(newBio){
         this.bio = newBio
     }
-
+//prueba
 
 }
 
